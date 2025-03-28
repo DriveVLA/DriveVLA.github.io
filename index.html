@@ -25,7 +25,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>Open-DriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Models</title>
+    <title>OpenDriveVLA: Towards End-to-end Autonomous Driving with Large Vision Language Action Model</title>
     <!-- <link rel="icon" type="image/x-icon" href="static/images/favicon.ico"> -->
     <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
@@ -52,8 +52,7 @@
         <div class="container is-max-desktop">
             <div class="columns is-centered">
                 <div class="column has-text-centered">
-                    <h1 class="title is-4 publication-title">Open-DriveVLA: Towards End-to-end Autonomous Driving with 
-                        Large <br> Vision Language Action Model</h1>
+                    <h1 class="title is-4 publication-title">OpenDriveVLA: Towards End-to-end Autonomous Driving <br> with Large Vision Language Action Model</h1>
                     <div class="is-size-5 publication-authors">
                         <span class="author-block" style="margin-right: 15px;"><a href="https://scholar.google.com/citations?user=FPYXLpQAAAAJ&hl=en"
                                                           target="_blank">Xingcheng Zhou</a><sup>1*</sup>,</span>
@@ -78,12 +77,12 @@
 
                             <!-- Github link -->
                             <span class="link-block">
-                                    <a href="https://github.com" target="_blank"
+                                    <a href="https://github.com/DriveVLA/OpenDriveVLA" target="_blank"
                                        class="external-link button is-normal is-rounded is-dark">
                                         <span class="icon">
                                             <i class="fab fa-github"></i>
                                         </span>
-                                        <span>Model</span>
+                                        <span>Code</span>
                                     </a>
                                 </span>
 
@@ -117,7 +116,7 @@
     </div>
 </section>
 
-<section class="section hero" style="margin-top: -20px;">
+<!-- <section class="section hero" style="margin-top: -20px;">
     <div class="container">
         <div class="columns">
             <div class="column is-centered has-text-centered">
@@ -137,7 +136,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <section class="section hero">
@@ -147,7 +146,7 @@
                 <h2 class="title is-3">Abstract</h2>
                 <div class="content has-text-justified">
                     <p>
-                        We present Open-DriveVLA, a salable Vision-Language Action model designed for end-to-end autonomous driving. Open-DriveVLA builds upon pre-trained large Vision-Language Models (VLMs) to generate reliable driving trajectories, conditioned on 3D environmental perception, ego vehicle states, and driver commands. To bridge the modality gap between driving visual representations and language embeddings, we propose a hierarchical vision-language alignment module, projecting both 2D and 3D structured visual tokens into a unified semantic space. Besides, Open-DriveVLA models the dynamic relationships between the ego vehicle, surrounding agents, and static road elements through an autoregressive agent-ego-map interaction module, ensuring both spatially and behaviorally informed trajectory planning. Extensive experiments on the nuScenes dataset demonstrate that Open-DriveVLA achieves state-of-the-art results across open-loop trajectory planning and driving-related question-answering tasks. Qualitative analyses further illustrate Open-DriveVLA's superior capability to follow high-level driving commands and robustly generate trajectories under challenging scenarios, highlighting its potential for interpretable end-to-end autonomous driving.
+                        We present OpenDriveVLA, a Vision-Language Action (VLA) model designed for end-to-end autonomous driving. OpenDriveVLA builds upon open-source pre-trained large Vision-Language Models (VLMs) to generate reliable open-loop driving actions, conditioned on 3D environmental perception, ego vehicle states, and driver commands. To bridge the modality gap between driving visual representations and language embeddings, we propose a hierarchical vision-language alignment process, projecting both 2D and 3D structured visual tokens into a unified semantic space. Besides, OpenDriveVLA models the dynamic relationships between the ego vehicle, surrounding agents, and static road elements through an autoregressive agent-env-ego interaction process, ensuring both spatially and behaviorally informed trajectory planning. Extensive experiments on the nuScenes dataset demonstrate that OpenDriveVLA achieves state-of-the-art results across open-loop trajectory planning and driving-related question-answering tasks. Qualitative analyses further illustrate OpenDriveVLA's superior capability to follow high-level driving commands and robustly generate trajectories under challenging scenarios, highlighting its potential for next-generation end-to-end autonomous driving. We will release our code to facilitate further research in this domain.
                     </p>
                 </div>
             </div>
