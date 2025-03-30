@@ -116,74 +116,67 @@
     </div>
 </section>
 
-<section class="section hero" style="margin-top: -20px;">
+<section class="section hero">
     <div class="container">
-        <div class="columns">
-            <div class="column is-centered has-text-centered">
-                <h2 class="title is-3">Visualization 1</h2>
-
+        <h2 class="title is-3 has-text-centered">Visualizations</h2>
+        
+        <div class="columns is-multiline">
+            <div class="column is-12 has-text-centered">
+                <!-- <h3 class="title is-4">Visualization 1</h3> -->
                 <div class="item video1">
                     <video poster="" autoplay controls muted loop style="width: 100%; height: auto;">
                         <source src="static/videos/OpenDriveVLA-7B-vis1.mp4" type="video/mp4">
                     </video>
-                    <h2 class="subtitle has-text-justify">
-                        <h2 class="subtitle">
-                            <p><b>Visualization Results of OpenDriveVLA-7B on nuScenes val-mini set with temperature 0 (deterministic).</b> </p>
-                        </h2>
+                    <h2 class="subtitle">
+                        <p><b>Visualization Results 1 of OpenDriveVLA-7B on nuScenes val-mini set.</b></p>
                     </h2>
                 </div>
-
             </div>
-        </div>
-    </div>
-</section>
 
-<section class="section hero" style="margin-top: -20px;">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-centered has-text-centered">
-                <h2 class="title is-3">Visualization 2</h2>
-
+            <div class="column is-12 has-text-centered">
+                <!-- <h3 class="title is-4">Visualization 2</h3> -->
                 <div class="item video1">
                     <video poster="" autoplay controls muted loop style="width: 100%; height: auto;">
                         <source src="static/videos/OpenDriveVLA-7B-vis2.mp4" type="video/mp4">
                     </video>
-                    <h2 class="subtitle has-text-justify">
-                        <h2 class="subtitle">
-                            <p><b>Visualization Results of OpenDriveVLA-7B on nuScenes val set with temperature 0 (deterministic).</b> </p>
-                        </h2>
+                    <h2 class="subtitle">
+                        <p><b>Visualization Results 2 of OpenDriveVLA-7B on nuScenes val set.</b></p>
                     </h2>
                 </div>
-
             </div>
-        </div>
-    </div>
-</section>
 
-<section class="section hero" style="margin-top: -20px;">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-centered has-text-centered">
-                <h2 class="title is-3">Visualization 3</h2>
-
+            <div class="column is-12 has-text-centered">
+                <!-- <h3 class="title is-4">Visualization 3</h3> -->
                 <div class="item video1">
                     <video poster="" autoplay controls muted loop style="width: 100%; height: auto;">
                         <source src="static/videos/OpenDriveVLA-7B-vis3.mp4" type="video/mp4">
                     </video>
-                    <h2 class="subtitle has-text-justify">
-                        <h2 class="subtitle">
-                            <p><b>Visualization Results of OpenDriveVLA-7B on nuScenes val set with temperature 0 (deterministic).</p>
-                        </h2>
+                    <h2 class="subtitle">
+                        <p><b>Visualization Results 3 of OpenDriveVLA-7B on nuScenes val set.</b></p>
                     </h2>
                 </div>
-
             </div>
         </div>
     </div>
 </section>
 
 
-<section class="section hero">
+<section class="section hero" style="margin-top: -20px;">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <div class="item">
+                <h2 class="title is-3" style="text-align: center;">OpenDriveVLA Model Architecture</h2>
+                <img src="static/images/drivevla-ModelArc.jpg" alt="DriveVLA Model Architecture"/>
+                <h2 class="subtitle">
+                    <!-- <b>Visualization of the labeled Accid3nD dataset</b>. -->
+                </h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section hero" style="margin-top: -20px;">
     <div class="container is-max-desktop">
         <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths">
@@ -198,12 +191,13 @@
     </div>
 </section>
 
+
 <section class="hero teaser">
     <div class="container is-max-desktop">
         <div class="hero-body">
             <div class="item">
-                <h2 class="title is-3" style="text-align: center;">OpenDriveVLA Model Architecture</h2>
-                <img src="images/drivevla-ModelArc.jpg" alt="DriveVLA Model Architecture"/>
+                <h2 class="title is-3" style="text-align: center;">OpenDriveVLA Training Pipleline</h2>
+                <img src="static/images/drivevla_training.jpg" alt="DriveVLA Training Pipleline"/>
                 <h2 class="subtitle">
                     <!-- <b>Visualization of the labeled Accid3nD dataset</b>. -->
                 </h2>
@@ -213,6 +207,33 @@
 </section>
 
 
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <h2 class="title is-3" style="text-align: center;">Experimental Results</h2>
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <div class="item">
+                        <h3 class="title is-4" style="text-align: center;">Open-Loop Planning Performance</h3>
+                        <div style="text-align: center;">
+                            <img src="static/images/main_result.png" alt="Open-Loop planning performance" style="margin: 0 auto;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <div class="item">
+                        <h3 class="title is-4" style="text-align: center;">Question Answering Performance</h3>
+                        <div style="text-align: center;">
+                            <img src="static/images/QA_result.png" alt="QA performance" style="margin: 0 auto;"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <footer class="footer">
     <div class="container">
